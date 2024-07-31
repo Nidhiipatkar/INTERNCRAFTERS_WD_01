@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Logo</div>
+            <div type="button" class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <div id="line">
+
+                    <div  class="line"></div>
+                    <div  class="line"></div>
+                    <div  class="line"></div>
+                </div>
+                <div  id="hclose">
+                    X
+                </div>
+            </div>
+    
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="hmd">
+            <div id="hm">
+                <div class="pd-1"><a href="#home">Home</a></div>
+                <div class="pd-1"><a href="#about">About</a></div>
+                <div class="pd-1"><a href="#services">Services</a></div>
+                <div class="pd-1"><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="landing">
+        <h1>Welcome to Our Website</h1>
+    </div>
+
+    <section id="home">
+        <h1>Home Section</h1>
+        <p>Welcome to our website! We are glad to have you here. Our website is designed to provide you with the best experience. Explore our sections to learn more about what we offer.</p>
+    </section>
+    <section id="about">
+        <h1>About Section</h1>
+        <p>We are a team of dedicated professionals committed to providing top-notch services to our clients. Our mission is to deliver quality and satisfaction in everything we do. Learn more about our journey and values here.</p>
+    </section>
+    <section id="services">
+        <h1>Services Section</h1>
+        <p>Our services are tailored to meet your needs. We offer a range of solutions including web development, digital marketing, and content creation. Discover how we can help you achieve your goals with our expert services.</p>
+    </section>
+    <section id="contact">
+        <h1>Contact Section</h1>
+        <p>We would love to hear from you! If you have any questions, suggestions, or just want to say hello, feel free to reach out to us. Contact us through our email, phone, or visit us at our office. We're here to help!</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
